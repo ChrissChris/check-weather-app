@@ -72,7 +72,7 @@ export default {
           );
         })
         .catch(() => {
-          console.log("Please come back later, thank you  :)");
+          console.log("Please come back later, thank you :)");
         });
     },
   },
