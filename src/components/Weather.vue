@@ -10,9 +10,6 @@
     <v-card-text id="temp">
       <h2 id="today" class="">Today Weather</h2>
       <div v-if="kalvinTemperatureToday" id="text-wraper">
-        <div>
-          <p id="temperatureLocation">{{ temperatureCityLocation }}</p>
-        </div>
         <br />
         <br />
 
