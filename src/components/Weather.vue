@@ -100,7 +100,6 @@ export default {
 }
 #temperatureLocation {
   font-size: 16px;
-  font-style: avenir;
 }
 #niceDay {
   font-size: 30px;
