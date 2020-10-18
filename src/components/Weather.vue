@@ -20,7 +20,7 @@
         <br />
         <p id="niceDay">Have a nice day</p>
         <br />
-        🙂
+        ✨
       </div>
     </v-card-text>
 
