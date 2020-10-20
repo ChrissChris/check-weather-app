@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import axios from "axios"
+import axios from "axios";
 
 export default {
   name: "Weather",
@@ -51,7 +51,7 @@ export default {
       celciusTemperature: null,
       cityName: null,
       temperatureCityLocation: null,
-    }
+    };
   },
 
   methods: {
@@ -63,20 +63,20 @@ export default {
         .then((responce) => {
           /* The command will receive only the temperature data from the API */
 
-          this.kalvinTemperatureToday = responce.data.main.temp
+          this.kalvinTemperatureToday = responce.data.main.temp;
 
           /*  The row bellow will convert the received temperature data from the API from Kalvin to Celzius and asign it to celziusTemperature*/
 
           this.celciusTemperature = Math.round(
             this.kalvinTemperatureToday - 273.15
-          )
+          );
         })
         .catch(() => {
-          console.log("Please come back later, thank you :)")
-        })
+          console.log("Please come back later, thank you :)");
+        });
     },
   },
-}
+};
 </script>
 
 <style scoped>
@@ -99,7 +99,7 @@ export default {
   color: white;
 }
 #temperatureLocation {
-  font-size: 22px;
+  font-size: 35px;
 }
 #niceDay {
   font-size: 30px;
