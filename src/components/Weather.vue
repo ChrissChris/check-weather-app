@@ -99,7 +99,7 @@ export default {
   color: white;
 }
 #temperatureLocation {
-  font-size: 29px;
+  font-size: 35px;
 }
 #niceDay {
   font-size: 30px;
