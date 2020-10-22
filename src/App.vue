@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Weather from "@/components/Weather"
+import Weather from "@/components/Weather";
 
 export default {
   name: "App",
@@ -19,5 +19,5 @@ export default {
   components: {
     Weather,
   },
-}
+};
 </script>

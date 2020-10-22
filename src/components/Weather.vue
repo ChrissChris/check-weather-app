@@ -14,7 +14,10 @@
         <br />
 
         <h1 clas="celziusDisplay">{{ celciusTemperature }} °C</h1>
-
+        <br />
+        <br />
+        <br />
+        <br />
         <p id="niceDay">Have a nice day</p>
         <br />
         ✨
@@ -77,9 +80,6 @@ export default {
 </script>
 
 <style scoped>
-.celziusDisplay {
-  margin-bottom: 50px;
-}
 #button {
   margin: auto;
   margin-top: 50px;
