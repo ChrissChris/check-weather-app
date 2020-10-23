@@ -13,7 +13,7 @@
         <br />
         <br />
 
-        <h1 id="celziusDisplay">{{ celciusTemperature }} °C</h1>
+        <h1 id="celziusTemperatureDisplay">{{ celciusTemperature }} °C</h1>
 
         <p id="niceDay">Have a nice day</p>
         <br />
@@ -83,6 +83,9 @@ export default {
 </script>
 
 <style scoped>
+#celziusTemperatureDisplay {
+  margin-bottom: 30px;
+}
 #check-button {
   margin: auto;
   margin-top: 50px;
