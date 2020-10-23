@@ -29,7 +29,13 @@
     ></v-text-field>
 
     <v-card-actions>
-      <v-btn @click="receiveApiData" id="button" x-large color="success" dark>
+      <v-btn
+        @click="receiveApiData"
+        id="check-button"
+        x-large
+        color="success"
+        dark
+      >
         CHECK
       </v-btn>
     </v-card-actions>
@@ -77,7 +83,7 @@ export default {
 </script>
 
 <style scoped>
-#button {
+#check-button {
   margin: auto;
   margin-top: 50px;
 }
