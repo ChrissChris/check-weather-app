@@ -11,7 +11,6 @@
       <h2 id="today" class="">Today Weather</h2>
       <div v-if="kalvinTemperatureToday" id="text-wraper">
         <br />
-        <br />
 
         <h1 id="celziusTemperatureDisplay">{{ celciusTemperature }} °C</h1>
 
