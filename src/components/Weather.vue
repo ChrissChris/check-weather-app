@@ -105,6 +105,7 @@ export default {
   font-size: 29px;
 }
 #niceDayWishing {
+  margin-top: 10px;
   font-size: 30px;
   font-style: normal;
   font-weight: bold;
