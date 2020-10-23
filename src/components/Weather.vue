@@ -91,7 +91,7 @@ export default {
 #temp {
   margin-bottom: 100px;
 }
-#text-wraper {
+#temperature-text-wraper {
   text-align: center;
   margin-top: 100px;
   font-size: 37px;
