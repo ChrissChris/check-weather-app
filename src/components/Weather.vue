@@ -14,7 +14,6 @@
         <br />
 
         <h1 id="celziusDisplay">{{ celciusTemperature }} °C</h1>
-        <br />
 
         <p id="niceDay">Have a nice day</p>
         <br />
