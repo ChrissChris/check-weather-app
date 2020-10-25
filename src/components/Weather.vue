@@ -81,7 +81,7 @@ export default {
 
 <style scoped>
 #celziusTemperatureDisplay {
-  margin-top: 32px;
+  margin-top: 30px;
   margin-bottom: 32px;
 }
 #check-button {
