@@ -9,7 +9,7 @@
   >
     <v-card-text id="temp">
       <h2 class="todayWeatherText">Today Weather</h2>
-      <div v-if="kalvinTemperatureToday" id="temperature-text-wraper">
+      <div v-if="kalvinTemperatureToday" class="temperature-text-wraper">
         <h1 id="celziusTemperatureDisplay">{{ celciusTemperature }} °C</h1>
 
         <p id="positiveDayWishing">Have a nice day</p>
