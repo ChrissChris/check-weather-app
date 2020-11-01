@@ -7,9 +7,9 @@
     height="700"
     elevation="10"
   >
-    <v-card-text class="temperature-displaying">
+    <v-card-text class="temperature-displaying-wraper">
       <h2 class="today-weather-heading-text">Today Weather</h2>
-      <div v-if="kalvinTemperatureToday" class="temperature-text-wraper">
+      <div v-if="kalvinTemperatureToday" class="temperature-data-wraper">
         <h1 class="celzius-temperature-display">{{ celciusTemperature }} °C</h1>
 
         <p class="positive-day-wishing">Have a nice day</p>
@@ -80,6 +80,9 @@ export default {
 </script>
 
 <style scoped>
+.temperature-displaying-wraper {
+  margin-bottom: 7em;
+}
 .celzius-temperature-display {
   margin-top: 2em;
   margin-bottom: 1.5em;
@@ -88,13 +91,11 @@ export default {
   margin: auto;
   margin-top: 3em;
 }
-.temperature-displaying {
-  margin-bottom: 100px;
-}
-.temperature-text-wraper {
+
+.temperature-data-wraper {
   text-align: center;
-  margin-top: 100px;
-  font-size: 37px;
+  margin-top: 4em;
+  font-size: 2.5em;
   color: white;
 }
 
