@@ -82,7 +82,7 @@ export default {
 <style scoped>
 .celzius-temperature-display {
   margin-top: 2em;
-  margin-bottom: 29px;
+  margin-bottom: 1.5em;
 }
 .check-button {
   margin: auto;
