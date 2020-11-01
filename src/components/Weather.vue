@@ -8,7 +8,7 @@
     elevation="10"
   >
     <v-card-text class="temperature-displaying">
-      <h2 class="todayWeatherText">Today Weather</h2>
+      <h2 class="today-weather-heading-text">Today Weather</h2>
       <div v-if="kalvinTemperatureToday" class="temperature-text-wraper">
         <h1 class="celzius-temperature-display">{{ celciusTemperature }} °C</h1>
 
@@ -98,7 +98,7 @@ export default {
   color: white;
 }
 
-.todayWeatherText {
+.today-weather-heading-text {
   text-align: center;
   color: white;
 }
