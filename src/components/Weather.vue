@@ -105,9 +105,10 @@ export default {
 #temperatureLocation {
   font-size: 29px;
 }
-#positive-day-wishing {
-  margin-top: 10px;
-  font-size: 30px;
+.positive-day-wishing {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-size: 1em;
   font-style: normal;
   font-weight: bold;
 }
