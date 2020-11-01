@@ -28,7 +28,7 @@
     <v-card-actions>
       <v-btn
         @click="receiveApiData"
-        class="check-button"
+        class="temperature-check-button"
         x-large
         color="success"
         dark
@@ -65,7 +65,7 @@ export default {
 
           this.kalvinTemperatureToday = responce.data.main.temp;
 
-          /*  The row bellow will convert the received temperature data from the API from Kalvin to Celzius and asign it to celziusTemperature*/
+          /*  The row bellow will convert the received temperature data from the API from Kalvin to Celzius and asign it to celziusTemperature variable */
 
           this.celciusTemperature = Math.round(
             this.kalvinTemperatureToday - 273.15
@@ -87,7 +87,7 @@ export default {
   margin-top: 2em;
   margin-bottom: 1.5em;
 }
-.check-button {
+.temperature-check-button {
   margin: auto;
   margin-top: 3em;
 }
