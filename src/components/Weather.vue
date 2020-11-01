@@ -10,7 +10,7 @@
     <v-card-text id="temp">
       <h2 class="todayWeatherText">Today Weather</h2>
       <div v-if="kalvinTemperatureToday" class="temperature-text-wraper">
-        <h1 id="celziusTemperatureDisplay">{{ celciusTemperature }} °C</h1>
+        <h1 class="celzius-temperature-display">{{ celciusTemperature }} °C</h1>
 
         <p id="positiveDayWishing">Have a nice day</p>
 
@@ -28,7 +28,7 @@
     <v-card-actions>
       <v-btn
         @click="receiveApiData"
-        id="check-button"
+        class="check-button"
         x-large
         color="success"
         dark
@@ -80,11 +80,11 @@ export default {
 </script>
 
 <style scoped>
-#celziusTemperatureDisplay {
+.celzius-temperature-display {
   margin-top: 29px;
   margin-bottom: 29px;
 }
-#check-button {
+.check-button {
   margin: auto;
   margin-top: 50px;
 }
