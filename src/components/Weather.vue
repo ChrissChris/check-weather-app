@@ -12,7 +12,7 @@
       <div v-if="kalvinTemperatureToday" class="temperature-text-wraper">
         <h1 class="celzius-temperature-display">{{ celciusTemperature }} °C</h1>
 
-        <p id="positiveDayWishing">Have a nice day</p>
+        <p class="positive-day-wishing">Have a nice day</p>
 
         ✨
       </div>
@@ -105,7 +105,7 @@ export default {
 #temperatureLocation {
   font-size: 29px;
 }
-#niceDayWishing {
+#positive-day-wishing {
   margin-top: 10px;
   font-size: 30px;
   font-style: normal;
