@@ -13,7 +13,6 @@
         <h1 class="celzius-temperature-display">{{ celciusTemperature }} °C</h1>
 
         <p class="positive-day-wishing">Have a nice day</p>
-
         ✨
       </div>
     </v-card-text>
